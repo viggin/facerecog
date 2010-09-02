@@ -1,0 +1,29 @@
+pending thoughts:
+
+Haar与ASM共同运行，防止ASM不收敛？或在几何归一结果中再FD？
+在每个人的数据库条目中，可以设若干条数据，除了姓名，ID，enroll日期，representation外，还可以有随便添加的文字信息和语音信息，还可以设置某条信息是给谁的。
+使用Access数据库？
+加入删除、更改条目的功能？
+在ASM之前用光照预处理？
+针对摄像头动态注册和识别的优化?
+自己编一个对齐函数，如ASM？
+多人照片注册、识别
+发到google code
+如果OpenCV是静态lib，是不是就不用包含一大堆cv.dll了？
+
+使用opencv 1.0以节省dll大小/提高速度？ // 1.0的摄像头函数似乎较慢
+Haar FD 2.0+ASM? // 1.0与2.0FD RC位置大小不同，ASM初始化会有问题
+给某些函数加上const以提高健壮性？ // 对const不太了解，似乎不太必要
+frmat、frmodel加入id防止误用？ // ok
+非界面部分去掉MFC，用string和vector // vector ok, string 没有 Format, 暂时保留CString
+用改OpenCV源代码的方法(申请空间时记录序号)找到内存泄漏 // 修改Train函数后内存泄漏消失
+延迟加载dll，加快启动速度 // 新开线程初始化CFaceMngr类，解决
+ini文件：预加载frmat、frmodel // ok
+实验dll地狱？ // 可用显示加载
+统一每个模块的接口 // 考虑每种算法接口可能不同
+整理FaceMngr和frtest模块，加入算法测试模块 // ok
+检查一下FaceFeature 改成8字节精确度，会出什么问题 // ok
+
+com, c#, 数据库
+matlab email:
+剪切、复制整行，ctrl+backspace，高亮显示符号名，全面自动提示符号，导出全部设置，figure无透明边界复制，+= ,++

@@ -1,0 +1,122 @@
+stdafx.h 只被包含在所有cpp文件中。stdafx.h 中只包含MFC或Windows头文件，某一个类用到的头文件和声明不要放在里面*
+
+预计后面的版本才要实现的功能，如果不涉及到程序结构的大改动，就先放着不管。
+
+在类定义文件中提示：语法错误 : 缺少“;”
+通常由于缺少头文件导致导致该行的前一行的标识符没有被定义.
+Dlg.cpp要引用Resource.h
+
+定义指针最好初始化一下
+
+等待线程终止的方法之一：在主线程中设一m_bStarted，在新线程中时刻检查。要新线程结束时，设m_bStarted=false。
+为了确保新线程结束后主线程才结束，创建线程时：m_thrd = ::AfxBeginThread(ThreadProc, this);终止线程时::WaitForSingleObject(m_thrd->m_hThread, INFINITE);
+
+wchar 和 char 相互转换：通过cstring,cstringA(强制转换)？通过sprintf,wsprintf？通过W2A？通过在项目配置中使用直接用宽字符？
+
+没用的代码，最好别急着删，过一阵确定真不需要了再删
+
+本程序命名的几个原则：
+函数名和函数功能往熟悉的Matlab函数靠；
+类名前加C，类成员变量加m_
+函数名首字母大写，除此之外用java风格
+
+本程序编写的几个风格：
+头文件加#pragma once；
+在头文件中包含.h时，只包含需要包含的；如果需要包含的文件已经被包含在前面的被包含文件中，不重复包含
+cpp中包含.h时，包含声明了此cpp中类和函数的头文件
+.lib用#pragma引入，防止在项目配置里设置后别人看不到
+空格、缩进、空行：如果看着乱就加入。
+
+一个函数的返回值，引用能够做到，指针也能做到，返回值还能做到，那么应该怎样根据不同情况使用这三者？
+执行一个函数时，可以进行很多合法性检查，比如指针是否为空，类成员是否初始化，数据结构是否正确等等。应该怎样取舍？
+
+本程序中，参数的调节一般在每个类的Init方法中和构造函数中。具体算法中也会有一些。
+
+在类中定义常量，在类定义中写static const a=1;
+
+int a[3];b=4;a[b]这样的数组越界，执行时系统并不会报错。
+
+CString::Format最好不要拿自己当参数
+
+xp styled buttons:stdafx.h
+#pragma comment(linker,"/manifestdependency:\"type='win32' name='Microsoft.Windows.Common-Controls' "\
+"version='6.0.0.0' processorArchitecture='x86' publicKeyToken='6595b64144ccf1df' language='*'\"") // xp style
+
+忽略默认库：
+#pragma comment(linker, "/NODEFAULTLIB:libcmtd.lib")
+
+几个模块都可能用到的对象，设为公有对象；模块功能分割明确；不要让一个对话框去控制另外一个对话框的行为，除非必须有内容交互。
+
+<afxcontrolbars.h>中有CWinAppEx
+
+ShowWindow的 SW_HIDE 和 SW_SHOWNORMAL 是管用的
+
+注意各模块初始化顺序依赖
+
+CFileDialog NOCHANGEDIR 不改变当前文件夹
+
+CString::GetBuffer(N)后要ReleaseBuffer()
+
+延迟加载dll：防止程序启动过慢：属性-链接器-输入
+
+查看lib和dll导出符号：dumpbin /exports x.dll
+
+dll导出函数头文件加extern c?
+#define DLLEXP __declspec(dllexport)
+#ifdef __cplusplus
+extern "C"{
+#endif
+DLLEXP int xxx(...
+#ifdef __cplusplus
+}
+#endif
+
+导出类只需：class __declspec(dllexport) CXxx
+
+可在 属性-链接器-输入 删去模块定义文件，如果不用def文件导出dll
+
+STL:
+string: 为了可移植性不用MFC，且不用Format时使用。实在要用Format，可以用ostrstream或sprintf
+vector: 可用[]随机存取。vector<T>::push_back(s)是传值，会把s复制一遍，T可以是struct或CString
+
+你编写一个程序X.exe，需要一个函数：
+如果你将函数编译成静态A.lib，而它用到了静态B.lib，则X编译时需要B；
+如果你将函数编译成动态C.lib+C.dll，而它用到了B，则X编译时不需要B；
+如果C用到了动态D.lib+D.dll，则X执行时需要D.dll。
+
+实现不用重新编译程序而更换dll（当然调用的函数原型不能变）、动态加载dll（可以改变名字和路径）、插件制作：显示调用dll
+1.如果dll中导出的是函数，要用extern "C"修饰（或者也可以用dumpbin查看其c++函数名）
+2.如果dll中导出的是类，要加一个函数:
+	extern "C" __declspec(dllexport) CMyClass *GetInstance();
+	CMyClass * GetInstance()
+	{
+		return new CMyClass;
+	}
+然后在类声明中把要使用的函数设为（包括析构函数）virtual，这样调用方就不会提示链接失败了。然而，如果两个dll差别太大，比如
+成员变量不同或者非虚函数不同，更换dll时似乎还是会出错。
+3.在调用方：
+	typedef CMyClass* (*pfnMyClass)();
+	HINSTANCE h = ::LoadLibrary("MyClass.dll");
+	pfnMyClass pfn = (pfnMyClass)GetProcAddress(h, "GetInstance");
+	CMyClass* e = (pfn)();
+	cout<<e->func(3)<<endl;
+	delete e;
+	::FreeLibrary(h);
+4.隐式调用（用lib）是无法做到不用重新编译程序而更换dll的，会出错(*)
+5.如果一个dll项目用到了另一个显式链接的B.dll，B的头文件要用dllimport以示区别
+
+CSubspace 显示一大堆基础函数找不到符号：
+#ifndef DEBUG
+#pragma comment(linker, "/NODEFAULTLIB:msvcrtd.lib")
+#endif
+
+对结构体重载运算符：
+CvSize operator +(CvSize a, CvSize b)
+{
+	return cvSize(a.width + b.width, a.height + b.height);
+}
+
+void operator +=(CvSize &a, CvSize b)
+{
+	a = a+b;
+}

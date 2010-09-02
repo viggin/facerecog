@@ -1,0 +1,1156 @@
+10	s10\10.png	->	8	s8\2.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\7.png	->	36	s36\2.png
+17	s17\10.png	->	36	s36\2.png
+28	s28\8.png	->	37	s37\1.png
+28	s28\9.png	->	17	s17\2.png
+32	s32\7.png	->	26	s26\1.png
+0.970833
+use 83.474081 s.
+10	s10\10.png	->	8	s8\2.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\7.png	->	36	s36\2.png
+17	s17\10.png	->	36	s36\2.png
+28	s28\8.png	->	37	s37\1.png
+28	s28\9.png	->	17	s17\2.png
+32	s32\7.png	->	26	s26\1.png
+0.970833
+use 78.463661 s.
+10	s10\10.png	->	8	s8\2.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\7.png	->	36	s36\2.png
+17	s17\10.png	->	36	s36\2.png
+28	s28\8.png	->	37	s37\1.png
+28	s28\9.png	->	17	s17\2.png
+32	s32\7.png	->	26	s26\1.png
+0.970833
+use 78.444499 s.
+
+08/14 21:42:52 Sat
+code test
+1.000000
+use 0.000000 s.
+
+08/14 22:03:49 Sat	code test
+4	s4\10.png	->	25	s25\2.png
+10	s10\10.png	->	8	s8\2.png
+17	s17\6.png	->	36	s36\1.png
+17	s17\7.png	->	24	s24\1.png
+17	s17\10.png	->	24	s24\1.png
+19	s19\8.png	->	14	s14\2.png
+19	s19\9.png	->	8	s8\2.png
+28	s28\8.png	->	37	s37\1.png
+32	s32\7.png	->	36	s36\2.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\9.png	->	13	s13\2.png
+40	s40\10.png	->	5	s5\1.png
+0.957143
+use 0.000000 s.
+
+08/14 22:17:26 Sat	code test
+40	s40\10.png	->	5	s5\1.png
+0.995000
+use 88.285026 s.
+
+08/15 13:40:01 Sun	code test
+1	s1\10.png	->	16	s16\9.png
+5	s5\10.png	->	40	s40\5.png
+16	s16\8.png	->	24	s24\3.png
+28	s28\8.png	->	37	s37\9.png
+33	s33\8.png	->	23	s23\7.png
+36	s36\10.png	->	19	s19\9.png
+40	s40\4.png	->	5	s5\7.png
+40	s40\10.png	->	5	s5\1.png
+0.960000
+use 8.851508 s.
+
+08/15 14:08:54 Sun	code test
+40	s40\10.png	->	5	s5\1.png
+0.995000
+use 44.638144 s.
+
+08/15 14:11:21 Sun	code test
+40	s40\10.png	->	5	s5\1.png
+0.995000
+use 44.330142 s.
+
+08/15 14:29:01 Sun	code test
+1	s1\3.png	->	24	s24\7.png
+1	s1\1.png	->	24	s24\3.png
+1	s1\6.png	->	24	s24\1.png
+4	s4\10.png	->	26	s26\2.png
+16	s16\8.png	->	24	s24\7.png
+16	s16\7.png	->	1	s1\10.png
+23	s23\9.png	->	38	s38\8.png
+26	s26\7.png	->	37	s37\5.png
+28	s28\9.png	->	13	s13\3.png
+28	s28\8.png	->	37	s37\9.png
+36	s36\6.png	->	24	s24\3.png
+36	s36\2.png	->	7	s7\10.png
+40	s40\5.png	->	5	s5\1.png
+40	s40\9.png	->	25	s25\7.png
+0.950000
+use 60.984924 s.
+
+08/15 14:42:34 Sun	code test
+1	s1\2.png	->	16	s16\4.png
+1	s1\10.png	->	16	s16\4.png
+1	s1\5.png	->	16	s16\4.png
+16	s16\8.png	->	27	s27\5.png
+26	s26\7.png	->	28	s28\1.png
+28	s28\9.png	->	37	s37\3.png
+28	s28\8.png	->	37	s37\3.png
+29	s29\9.png	->	39	s39\3.png
+33	s33\8.png	->	23	s23\4.png
+35	s35\1.png	->	9	s9\9.png
+0.964286
+use 64.742195 s.
+
+08/15 14:44:47 Sun	code test
+16	s16\7.png	->	1	s1\8.png
+26	s26\2.png	->	5	s5\8.png
+28	s28\4.png	->	14	s14\4.png
+33	s33\6.png	->	24	s24\9.png
+40	s40\10.png	->	5	s5\1.png
+40	s40\4.png	->	5	s5\7.png
+0.978571
+use 62.030941 s.
+
+08/15 14:46:20 Sun	code test
+1	s1\10.png	->	17	s17\5.png
+10	s10\10.png	->	4	s4\4.png
+13	s13\3.png	->	40	s40\8.png
+18	s18\10.png	->	5	s5\9.png
+18	s18\3.png	->	5	s5\9.png
+25	s25\8.png	->	5	s5\9.png
+28	s28\8.png	->	37	s37\7.png
+31	s31\5.png	->	34	s34\5.png
+31	s31\10.png	->	34	s34\5.png
+31	s31\4.png	->	34	s34\5.png
+31	s31\3.png	->	34	s34\10.png
+31	s31\2.png	->	34	s34\10.png
+32	s32\7.png	->	26	s26\5.png
+35	s35\3.png	->	40	s40\8.png
+35	s35\5.png	->	40	s40\8.png
+35	s35\10.png	->	40	s40\8.png
+35	s35\9.png	->	40	s40\8.png
+40	s40\10.png	->	5	s5\9.png
+0.935714
+use 61.560575 s.
+
+08/15 14:48:01 Sun	code test
+5	s5\3.png	->	40	s40\7.png
+16	s16\7.png	->	1	s1\8.png
+17	s17\1.png	->	24	s24\4.png
+17	s17\5.png	->	24	s24\4.png
+18	s18\2.png	->	40	s40\1.png
+18	s18\1.png	->	3	s3\10.png
+23	s23\1.png	->	38	s38\10.png
+23	s23\10.png	->	38	s38\10.png
+25	s25\8.png	->	3	s3\10.png
+26	s26\10.png	->	5	s5\8.png
+28	s28\9.png	->	37	s37\8.png
+33	s33\6.png	->	22	s22\5.png
+39	s39\8.png	->	22	s22\9.png
+39	s39\7.png	->	22	s22\9.png
+0.950000
+use 60.134607 s.
+
+08/15 14:55:04 Sun	code test
+1	s1\4.png	->	13	s13\2.png
+3	s3\4.png	->	26	s26\3.png
+4	s4\10.png	->	25	s25\2.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\7.png	->	36	s36\1.png
+17	s17\9.png	->	36	s36\1.png
+17	s17\10.png	->	36	s36\1.png
+19	s19\9.png	->	8	s8\2.png
+27	s27\6.png	->	16	s16\1.png
+32	s32\7.png	->	36	s36\2.png
+35	s35\7.png	->	15	s15\1.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\7.png	->	18	s18\3.png
+40	s40\9.png	->	13	s13\2.png
+40	s40\10.png	->	5	s5\2.png
+0.946429
+use 71.159297 s.
+
+08/15 14:57:20 Sun	code test
+4	s4\10.png	->	25	s25\2.png
+10	s10\10.png	->	8	s8\2.png
+17	s17\6.png	->	36	s36\1.png
+17	s17\7.png	->	24	s24\1.png
+17	s17\10.png	->	24	s24\1.png
+19	s19\8.png	->	14	s14\2.png
+19	s19\9.png	->	8	s8\2.png
+28	s28\8.png	->	37	s37\1.png
+32	s32\7.png	->	36	s36\2.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\9.png	->	13	s13\2.png
+40	s40\10.png	->	5	s5\1.png
+0.957143
+use 60.177315 s.
+
+08/15 15:11:19 Sun	code test
+40	s40\10.png	->	5	s5\1.png
+0.995000
+use 44.829521 s.
+
+08/15 15:16:18 Sun	code test
+1	s1\2.png	->	5	s5\3.png
+9	s9\10.png	->	40	s40\3.png
+10	s10\10.png	->	8	s8\3.png
+25	s25\8.png	->	5	s5\1.png
+35	s35\6.png	->	30	s30\1.png
+35	s35\7.png	->	30	s30\1.png
+35	s35\8.png	->	30	s30\3.png
+36	s36\2.png	->	24	s24\9.png
+37	s37\4.png	->	14	s14\3.png
+38	s38\10.png	->	23	s23\1.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\10.png	->	5	s5\1.png
+0.957143
+use 61.028163 s.
+
+08/16 21:57:44 Mon	code test
+1	s1\2.png	->	33	s33\9.png
+1	s1\4.png	->	23	s23\9.png
+1	s1\5.png	->	26	s26\9.png
+1	s1\6.png	->	23	s23\1.png
+1	s1\10.png	->	24	s24\3.png
+2	s2\2.png	->	39	s39\3.png
+2	s2\4.png	->	4	s4\1.png
+2	s2\7.png	->	6	s6\1.png
+2	s2\10.png	->	25	s25\9.png
+3	s3\2.png	->	20	s20\9.png
+3	s3\4.png	->	5	s5\1.png
+3	s3\5.png	->	26	s26\1.png
+3	s3\6.png	->	12	s12\9.png
+3	s3\7.png	->	23	s23\1.png
+3	s3\8.png	->	23	s23\1.png
+4	s4\2.png	->	30	s30\3.png
+4	s4\4.png	->	35	s35\1.png
+4	s4\5.png	->	23	s23\3.png
+4	s4\7.png	->	26	s26\3.png
+4	s4\10.png	->	28	s28\3.png
+5	s5\2.png	->	40	s40\9.png
+5	s5\4.png	->	22	s22\9.png
+5	s5\5.png	->	13	s13\3.png
+5	s5\7.png	->	40	s40\9.png
+5	s5\10.png	->	1	s1\3.png
+6	s6\6.png	->	1	s1\9.png
+6	s6\7.png	->	38	s38\1.png
+7	s7\2.png	->	38	s38\1.png
+8	s8\7.png	->	23	s23\9.png
+9	s9\4.png	->	20	s20\1.png
+9	s9\6.png	->	18	s18\3.png
+9	s9\7.png	->	39	s39\3.png
+9	s9\8.png	->	28	s28\9.png
+9	s9\10.png	->	18	s18\1.png
+10	s10\2.png	->	40	s40\9.png
+10	s10\4.png	->	36	s36\3.png
+10	s10\5.png	->	6	s6\3.png
+10	s10\6.png	->	29	s29\1.png
+10	s10\8.png	->	28	s28\3.png
+10	s10\10.png	->	1	s1\1.png
+11	s11\2.png	->	2	s2\3.png
+11	s11\5.png	->	16	s16\1.png
+11	s11\8.png	->	19	s19\9.png
+12	s12\2.png	->	36	s36\3.png
+12	s12\4.png	->	3	s3\9.png
+12	s12\7.png	->	11	s11\9.png
+12	s12\8.png	->	13	s13\1.png
+13	s13\2.png	->	26	s26\1.png
+13	s13\5.png	->	27	s27\3.png
+13	s13\6.png	->	25	s25\1.png
+14	s14\4.png	->	4	s4\1.png
+14	s14\5.png	->	34	s34\3.png
+14	s14\7.png	->	32	s32\9.png
+14	s14\8.png	->	11	s11\1.png
+15	s15\2.png	->	13	s13\1.png
+15	s15\4.png	->	22	s22\1.png
+15	s15\5.png	->	4	s4\1.png
+15	s15\10.png	->	13	s13\9.png
+16	s16\5.png	->	5	s5\3.png
+16	s16\7.png	->	18	s18\1.png
+16	s16\8.png	->	34	s34\9.png
+17	s17\5.png	->	8	s8\3.png
+17	s17\6.png	->	39	s39\9.png
+17	s17\7.png	->	39	s39\9.png
+17	s17\8.png	->	38	s38\1.png
+17	s17\10.png	->	31	s31\3.png
+18	s18\2.png	->	24	s24\9.png
+18	s18\4.png	->	33	s33\9.png
+18	s18\5.png	->	15	s15\9.png
+18	s18\10.png	->	29	s29\3.png
+19	s19\5.png	->	13	s13\3.png
+19	s19\7.png	->	39	s39\9.png
+19	s19\8.png	->	1	s1\1.png
+20	s20\4.png	->	17	s17\9.png
+20	s20\5.png	->	14	s14\9.png
+20	s20\6.png	->	34	s34\1.png
+20	s20\7.png	->	33	s33\3.png
+20	s20\10.png	->	6	s6\1.png
+21	s21\7.png	->	5	s5\9.png
+21	s21\8.png	->	5	s5\1.png
+23	s23\4.png	->	29	s29\9.png
+23	s23\5.png	->	20	s20\9.png
+23	s23\6.png	->	39	s39\1.png
+23	s23\7.png	->	22	s22\9.png
+23	s23\8.png	->	29	s29\9.png
+23	s23\10.png	->	9	s9\9.png
+24	s24\6.png	->	1	s1\1.png
+24	s24\8.png	->	1	s1\1.png
+25	s25\2.png	->	18	s18\1.png
+25	s25\5.png	->	40	s40\9.png
+25	s25\8.png	->	4	s4\9.png
+25	s25\10.png	->	22	s22\1.png
+26	s26\2.png	->	38	s38\3.png
+26	s26\4.png	->	20	s20\1.png
+26	s26\5.png	->	20	s20\1.png
+26	s26\7.png	->	4	s4\1.png
+26	s26\8.png	->	9	s9\3.png
+26	s26\10.png	->	37	s37\3.png
+28	s28\2.png	->	7	s7\9.png
+28	s28\4.png	->	22	s22\3.png
+28	s28\5.png	->	9	s9\9.png
+28	s28\7.png	->	9	s9\1.png
+28	s28\8.png	->	31	s31\1.png
+28	s28\10.png	->	25	s25\9.png
+29	s29\4.png	->	30	s30\3.png
+29	s29\5.png	->	13	s13\9.png
+29	s29\6.png	->	4	s4\9.png
+29	s29\7.png	->	4	s4\9.png
+29	s29\8.png	->	13	s13\9.png
+30	s30\2.png	->	3	s3\1.png
+30	s30\4.png	->	23	s23\3.png
+30	s30\5.png	->	13	s13\1.png
+30	s30\6.png	->	39	s39\3.png
+30	s30\7.png	->	35	s35\1.png
+30	s30\8.png	->	39	s39\9.png
+31	s31\2.png	->	34	s34\9.png
+31	s31\5.png	->	34	s34\9.png
+31	s31\6.png	->	30	s30\3.png
+31	s31\10.png	->	34	s34\9.png
+32	s32\5.png	->	28	s28\1.png
+32	s32\6.png	->	7	s7\1.png
+32	s32\7.png	->	11	s11\9.png
+32	s32\8.png	->	7	s7\1.png
+33	s33\2.png	->	3	s3\1.png
+33	s33\4.png	->	3	s3\1.png
+33	s33\5.png	->	2	s2\1.png
+33	s33\6.png	->	30	s30\9.png
+33	s33\7.png	->	23	s23\1.png
+33	s33\8.png	->	20	s20\3.png
+33	s33\10.png	->	3	s3\1.png
+34	s34\4.png	->	35	s35\1.png
+34	s34\5.png	->	35	s35\1.png
+34	s34\7.png	->	15	s15\1.png
+35	s35\2.png	->	30	s30\3.png
+35	s35\4.png	->	30	s30\3.png
+35	s35\6.png	->	2	s2\1.png
+35	s35\7.png	->	40	s40\1.png
+35	s35\8.png	->	9	s9\3.png
+36	s36\7.png	->	19	s19\3.png
+36	s36\10.png	->	18	s18\1.png
+37	s37\2.png	->	34	s34\9.png
+37	s37\4.png	->	34	s34\9.png
+37	s37\5.png	->	29	s29\1.png
+37	s37\6.png	->	9	s9\1.png
+37	s37\7.png	->	13	s13\9.png
+37	s37\8.png	->	9	s9\1.png
+37	s37\10.png	->	34	s34\9.png
+38	s38\2.png	->	9	s9\9.png
+38	s38\4.png	->	25	s25\3.png
+38	s38\5.png	->	33	s33\3.png
+38	s38\7.png	->	5	s5\1.png
+38	s38\10.png	->	21	s21\9.png
+39	s39\2.png	->	18	s18\1.png
+39	s39\4.png	->	13	s13\3.png
+39	s39\6.png	->	38	s38\3.png
+39	s39\7.png	->	2	s2\9.png
+39	s39\8.png	->	2	s2\9.png
+40	s40\4.png	->	29	s29\9.png
+40	s40\5.png	->	13	s13\1.png
+40	s40\7.png	->	6	s6\9.png
+40	s40\10.png	->	12	s12\1.png
+0.425000
+use 132.727814 s.
+
+08/16 22:57:11 Mon	code test
+4	s4\10.png	->	25	s25\9.png
+10	s10\10.png	->	8	s8\9.png
+35	s35\6.png	->	30	s30\1.png
+35	s35\7.png	->	30	s30\1.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\10.png	->	5	s5\3.png
+0.978571
+use 18.680740 s.
+
+08/16 23:00:33 Mon	code test
+1	s1\2.png	->	5	s5\3.png
+9	s9\10.png	->	40	s40\3.png
+10	s10\10.png	->	8	s8\3.png
+25	s25\8.png	->	5	s5\1.png
+35	s35\6.png	->	30	s30\1.png
+35	s35\7.png	->	30	s30\1.png
+35	s35\8.png	->	30	s30\3.png
+36	s36\2.png	->	24	s24\9.png
+37	s37\4.png	->	14	s14\3.png
+38	s38\10.png	->	23	s23\1.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\10.png	->	5	s5\1.png
+0.957143
+use 62.388700 s.
+
+08/16 23:18:39 Mon	orl,1~5train,GaborS,Mngr_cmplt
+16	s16\7.png	->	1	s1\3.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\10.png	->	36	s36\2.png
+28	s28\8.png	->	37	s37\4.png
+0.980000
+use 90.979046 s.
+
+08/16 23:23:38 Mon	orl,1~5train,GaborS
+16	s16\7.png	->	1	s1\3.png
+17	s17\6.png	->	36	s36\2.png
+17	s17\10.png	->	36	s36\2.png
+28	s28\8.png	->	37	s37\4.png
+0.980000
+use 89.033178 s.
+
+08/16 23:25:52 Mon	orl,1~5train,GaborS
+16	s16\7.png	->	1	s1\1.png
+17	s17\6.png	->	36	s36\5.png
+17	s17\10.png	->	24	s24\1.png
+0.985000
+use 31.829972 s.
+
+08/16 23:31:25 Mon	orl,1~5train,GaborS
+4	s4\10.png	->	25	s25\7.png
+10	s10\10.png	->	8	s8\2.png
+26	s26\4.png	->	3	s3\6.png
+26	s26\5.png	->	3	s3\6.png
+29	s29\9.png	->	39	s39\2.png
+35	s35\3.png	->	40	s40\2.png
+35	s35\5.png	->	40	s40\2.png
+35	s35\9.png	->	40	s40\2.png
+35	s35\10.png	->	40	s40\2.png
+0.962500
+use 30.260901 s.
+
+08/16 23:34:24 Mon	orl,1~5train,GaborS
+1	s1\10.png	->	17	s17\2.png
+11	s11\5.png	->	14	s14\7.png
+13	s13\4.png	->	5	s5\6.png
+19	s19\9.png	->	8	s8\2.png
+25	s25\8.png	->	5	s5\7.png
+28	s28\10.png	->	14	s14\2.png
+29	s29\9.png	->	39	s39\7.png
+35	s35\3.png	->	40	s40\1.png
+35	s35\5.png	->	40	s40\7.png
+35	s35\9.png	->	40	s40\1.png
+35	s35\10.png	->	15	s15\7.png
+0.954167
+use 88.747960 s.
+
+08/16 23:37:46 Mon	orl,1~5train,GaborS
+1	s1\2.png	->	16	s16\3.png
+1	s1\5.png	->	13	s13\7.png
+1	s1\10.png	->	16	s16\3.png
+4	s4\10.png	->	25	s25\7.png
+28	s28\8.png	->	37	s37\3.png
+0.982143
+use 29.005532 s.
+
+08/16 23:52:21 Mon	orl,1~5train,GaborS
+10	s10\10.png	->	4	s4\4.png
+15	s15\10.png	->	39	s39\1.png
+15	s15\2.png	->	39	s39\1.png
+15	s15\9.png	->	39	s39\1.png
+15	s15\5.png	->	39	s39\1.png
+15	s15\7.png	->	39	s39\1.png
+32	s32\7.png	->	8	s8\6.png
+37	s37\1.png	->	13	s13\3.png
+37	s37\9.png	->	13	s13\3.png
+37	s37\3.png	->	13	s13\3.png
+38	s38\10.png	->	23	s23\1.png
+40	s40\4.png	->	25	s25\5.png
+40	s40\10.png	->	35	s35\3.png
+0.953571
+use 30.256504 s.
+
+08/17 00:12:50 Tue	orl,3 random train, 5 times
+1	s1\5.png	->	8	s8\10.png
+4	s4\10.png	->	25	s25\5.png
+10	s10\10.png	->	8	s8\6.png
+26	s26\7.png	->	37	s37\7.png
+28	s28\8.png	->	37	s37\7.png
+0.982143
+use 29.651932 s.
+
+08/17 00:13:19 Tue	orl,3 random train, 5 times
+1	s1\1.png	->	24	s24\3.png
+23	s23\8.png	->	40	s40\6.png
+23	s23\5.png	->	33	s33\7.png
+23	s23\3.png	->	33	s33\7.png
+23	s23\2.png	->	6	s6\7.png
+40	s40\4.png	->	5	s5\10.png
+40	s40\9.png	->	5	s5\10.png
+40	s40\7.png	->	5	s5\10.png
+0.971429
+use 28.963431 s.
+
+08/17 00:13:49 Tue	orl,3 random train, 5 times
+1	s1\6.png	->	24	s24\9.png
+1	s1\1.png	->	24	s24\7.png
+1	s1\3.png	->	24	s24\7.png
+26	s26\7.png	->	37	s37\8.png
+28	s28\8.png	->	37	s37\7.png
+36	s36\4.png	->	7	s7\8.png
+36	s36\5.png	->	7	s7\8.png
+36	s36\1.png	->	7	s7\8.png
+36	s36\8.png	->	7	s7\8.png
+0.967857
+use 30.514359 s.
+
+08/17 00:14:19 Tue	orl,3 random train, 5 times
+10	s10\9.png	->	9	s9\9.png
+28	s28\8.png	->	37	s37\7.png
+36	s36\1.png	->	7	s7\7.png
+36	s36\4.png	->	7	s7\3.png
+36	s36\5.png	->	7	s7\7.png
+0.982143
+use 30.229763 s.
+
+08/17 00:14:50 Tue	orl,3 random train, 5 times
+1	s1\1.png	->	24	s24\6.png
+10	s10\9.png	->	9	s9\5.png
+28	s28\9.png	->	37	s37\8.png
+0.989286
+use 30.336792 s.
+
+08/17 00:26:56 Tue	orl,4 random train, 5 times
+1	s1\10.png	->	27	s27\7.png
+10	s10\10.png	->	8	s8\3.png
+17	s17\1.png	->	24	s24\1.png
+40	s40\9.png	->	5	s5\5.png
+40	s40\4.png	->	5	s5\10.png
+0.979167
+use 32.945334 s.
+
+08/17 00:27:28 Tue	orl,4 random train, 5 times
+26	s26\2.png	->	5	s5\3.png
+0.995833
+use 32.511390 s.
+
+08/17 00:28:01 Tue	orl,4 random train, 5 times
+28	s28\8.png	->	37	s37\6.png
+0.995833
+use 32.820251 s.
+
+08/17 00:28:34 Tue	orl,4 random train, 5 times
+10	s10\10.png	->	8	s8\9.png
+16	s16\7.png	->	1	s1\6.png
+0.991667
+use 32.701138 s.
+
+08/17 00:29:07 Tue	orl,4 random train, 5 times
+10	s10\10.png	->	4	s4\4.png
+17	s17\10.png	->	24	s24\1.png
+28	s28\8.png	->	37	s37\3.png
+0.987500
+use 33.097356 s.
+mean rate: 0.99
+
+08/17 00:34:56 Tue	orl,5 random train, 5 times
+1.000000
+use 35.157796 s.
+
+08/17 00:35:31 Tue	orl,5 random train, 5 times
+10	s10\10.png	->	8	s8\5.png
+16	s16\7.png	->	1	s1\2.png
+37	s37\3.png	->	28	s28\2.png
+37	s37\1.png	->	28	s28\3.png
+0.980000
+use 35.448889 s.
+
+08/17 00:36:06 Tue	orl,5 random train, 5 times
+1.000000
+use 34.878237 s.
+
+08/17 00:36:42 Tue	orl,5 random train, 5 times
+10	s10\10.png	->	8	s8\5.png
+16	s16\7.png	->	1	s1\2.png
+28	s28\8.png	->	37	s37\9.png
+0.985000
+use 35.490614 s.
+
+08/17 00:37:18 Tue	orl,5 random train, 5 times
+28	s28\8.png	->	37	s37\9.png
+40	s40\9.png	->	5	s5\10.png
+0.990000
+use 35.808112 s.
+mean rate: 0.991
+
+08/17 00:43:10 Tue	orl,2 random train, 5 times
+10	s10\10.png	->	9	s9\8.png
+16	s16\7.png	->	1	s1\10.png
+16	s16\8.png	->	1	s1\10.png
+26	s26\1.png	->	25	s25\9.png
+26	s26\3.png	->	25	s25\9.png
+26	s26\2.png	->	23	s23\9.png
+26	s26\7.png	->	28	s28\1.png
+26	s26\6.png	->	25	s25\9.png
+28	s28\9.png	->	37	s37\6.png
+32	s32\7.png	->	26	s26\4.png
+35	s35\1.png	->	12	s12\2.png
+36	s36\2.png	->	7	s7\6.png
+36	s36\6.png	->	24	s24\3.png
+37	s37\10.png	->	28	s28\1.png
+37	s37\9.png	->	28	s28\1.png
+37	s37\7.png	->	28	s28\1.png
+37	s37\3.png	->	28	s28\1.png
+37	s37\1.png	->	28	s28\1.png
+40	s40\4.png	->	5	s5\6.png
+40	s40\7.png	->	5	s5\6.png
+40	s40\9.png	->	5	s5\6.png
+40	s40\10.png	->	5	s5\6.png
+0.931250
+use 28.447568 s.
+
+08/17 00:43:38 Tue	orl,2 random train, 5 times
+1	s1\2.png	->	24	s24\1.png
+1	s1\6.png	->	24	s24\2.png
+3	s3\5.png	->	25	s25\1.png
+15	s15\8.png	->	33	s33\1.png
+23	s23\7.png	->	33	s33\1.png
+23	s23\3.png	->	33	s33\1.png
+26	s26\7.png	->	37	s37\1.png
+28	s28\8.png	->	37	s37\8.png
+40	s40\4.png	->	5	s5\8.png
+40	s40\7.png	->	35	s35\9.png
+40	s40\9.png	->	5	s5\1.png
+40	s40\10.png	->	5	s5\8.png
+0.962500
+use 27.403933 s.
+
+08/17 00:44:05 Tue	orl,2 random train, 5 times
+1	s1\3.png	->	24	s24\2.png
+1	s1\1.png	->	24	s24\2.png
+11	s11\8.png	->	16	s16\2.png
+13	s13\3.png	->	1	s1\4.png
+16	s16\7.png	->	1	s1\2.png
+17	s17\10.png	->	36	s36\2.png
+19	s19\9.png	->	8	s8\2.png
+23	s23\4.png	->	30	s30\5.png
+23	s23\1.png	->	38	s38\2.png
+23	s23\9.png	->	38	s38\5.png
+23	s23\7.png	->	38	s38\5.png
+23	s23\10.png	->	38	s38\5.png
+23	s23\6.png	->	38	s38\5.png
+26	s26\10.png	->	3	s3\2.png
+26	s26\7.png	->	39	s39\2.png
+26	s26\4.png	->	3	s3\2.png
+26	s26\8.png	->	3	s3\2.png
+33	s33\6.png	->	39	s39\2.png
+33	s33\9.png	->	20	s20\2.png
+35	s35\9.png	->	39	s39\2.png
+35	s35\10.png	->	40	s40\2.png
+35	s35\5.png	->	40	s40\2.png
+35	s35\3.png	->	40	s40\2.png
+36	s36\5.png	->	7	s7\8.png
+36	s36\1.png	->	7	s7\8.png
+39	s39\6.png	->	29	s29\9.png
+40	s40\4.png	->	29	s29\2.png
+40	s40\7.png	->	18	s18\3.png
+40	s40\10.png	->	18	s18\2.png
+0.909375
+use 27.372960 s.
+
+08/17 00:44:33 Tue	orl,2 random train, 5 times
+1	s1\3.png	->	24	s24\1.png
+1	s1\10.png	->	24	s24\1.png
+18	s18\3.png	->	13	s13\6.png
+18	s18\6.png	->	5	s5\10.png
+18	s18\10.png	->	5	s5\10.png
+26	s26\7.png	->	5	s5\10.png
+28	s28\10.png	->	14	s14\2.png
+31	s31\3.png	->	34	s34\2.png
+31	s31\5.png	->	34	s34\7.png
+31	s31\4.png	->	34	s34\2.png
+31	s31\10.png	->	34	s34\2.png
+31	s31\2.png	->	34	s34\2.png
+32	s32\7.png	->	36	s36\1.png
+40	s40\1.png	->	18	s18\2.png
+0.956250
+use 27.481345 s.
+
+08/17 00:45:00 Tue	orl,2 random train, 5 times
+1	s1\2.png	->	24	s24\3.png
+1	s1\6.png	->	39	s39\1.png
+1	s1\4.png	->	24	s24\3.png
+4	s4\10.png	->	25	s25\1.png
+4	s4\5.png	->	25	s25\1.png
+18	s18\10.png	->	12	s12\1.png
+18	s18\3.png	->	13	s13\1.png
+19	s19\9.png	->	8	s8\1.png
+23	s23\5.png	->	9	s9\3.png
+28	s28\8.png	->	37	s37\10.png
+31	s31\2.png	->	34	s34\1.png
+31	s31\3.png	->	34	s34\3.png
+31	s31\5.png	->	34	s34\1.png
+31	s31\10.png	->	34	s34\3.png
+31	s31\4.png	->	34	s34\1.png
+35	s35\5.png	->	40	s40\2.png
+35	s35\9.png	->	39	s39\1.png
+35	s35\10.png	->	40	s40\2.png
+36	s36\6.png	->	1	s1\1.png
+40	s40\4.png	->	5	s5\1.png
+40	s40\9.png	->	13	s13\4.png
+40	s40\10.png	->	5	s5\1.png
+0.931250
+use 27.515668 s.
+mean rate: 0.938125
+
+08/17 17:00:30 Tue	orl,2 random train, 5 times
+0.943750
+use 28.567373 s.
+
+08/17 17:00:57 Tue	orl,2 random train, 5 times
+0.875000
+use 26.637338 s.
+
+08/17 17:01:23 Tue	orl,2 random train, 5 times
+0.950000
+use 26.320449 s.
+
+08/17 17:01:50 Tue	orl,2 random train, 5 times
+0.959375
+use 26.327016 s.
+
+08/17 17:02:16 Tue	orl,2 random train, 5 times
+0.975000
+use 26.503055 s.
+mean rate: 0.940625
+
+08/17 17:13:50 Tue	orl,2 random train, 5 times
+0.928125
+use 26.164898 s.
+mean rate: 0.928125
+
+08/17 17:14:45 Tue	orl,2 random train, 5 times
+0.918750
+use 26.230277 s.
+
+08/17 17:15:12 Tue	orl,2 random train, 5 times
+0.940625
+use 26.248287 s.
+
+08/17 17:15:38 Tue	orl,2 random train, 5 times
+0.912500
+use 26.269215 s.
+mean rate: 0.923958
+
+08/17 17:44:02 Tue	orl,2 random train, 5 times
+0.000000
+use 28.600356 s.
+
+08/17 17:44:28 Tue	orl,2 random train, 5 times
+0.000000
+use 26.341526 s.
+
+08/17 17:44:55 Tue	orl,2 random train, 5 times
+0.000000
+use 26.309034 s.
+mean rate: 0
+
+08/17 17:48:05 Tue	orl,2 random train, 5 times
+0.959375
+use 26.352125 s.
+
+08/17 17:48:32 Tue	orl,2 random train, 5 times
+0.943750
+use 26.271329 s.
+
+08/17 17:48:58 Tue	orl,2 random train, 5 times
+0.921875
+use 26.271846 s.
+mean rate: 0.941667
+
+08/17 22:40:19 Tue	orl,2 random train, 5 times
+0.000000
+use 38.352091 s.
+
+08/17 22:40:47 Tue	orl,2 random train, 5 times
+0.000000
+use 27.387278 s.
+
+08/17 22:41:14 Tue	orl,2 random train, 5 times
+0.000000
+use 27.417184 s.
+mean rate: 0
+
+08/17 22:45:49 Tue	orl,2 random train, 5 times
+0.940625
+use 28.691081 s.
+
+08/17 22:46:17 Tue	orl,2 random train, 5 times
+0.912500
+use 28.282731 s.
+
+08/17 22:46:46 Tue	orl,2 random train, 5 times
+0.918750
+use 28.436294 s.
+mean rate: 0.923958
+
+08/17 22:48:33 Tue	orl,2 random train, 5 times
+0.928125
+use 29.795595 s.
+
+08/17 22:49:04 Tue	orl,2 random train, 5 times
+0.896875
+use 30.793468 s.
+
+08/17 22:49:34 Tue	orl,2 random train, 5 times
+0.925000
+use 30.466732 s.
+
+08/17 22:50:03 Tue	orl,2 random train, 5 times
+0.900000
+use 28.523849 s.
+
+08/17 22:50:31 Tue	orl,2 random train, 5 times
+0.915625
+use 28.542161 s.
+mean rate: 0.913125
+
+08/17 22:56:59 Tue	orl,2 random train, 5 times
+0.946875
+use 28.535681 s.
+
+08/17 22:57:28 Tue	orl,2 random train, 5 times
+0.956250
+use 28.569084 s.
+
+08/17 22:57:57 Tue	orl,2 random train, 5 times
+0.931250
+use 28.616271 s.
+
+08/17 22:58:25 Tue	orl,2 random train, 5 times
+0.959375
+use 28.339406 s.
+
+08/17 22:58:53 Tue	orl,2 random train, 5 times
+0.912500
+use 28.502618 s.
+mean rate: 0.94125
+
+08/17 23:02:16 Tue	orl,2 random train, 5 times
+0.940625
+use 28.697001 s.
+mean rate: 0.940625
+
+08/17 23:07:18 Tue	orl,2 random train, 5 times
+0.940625
+use 28.842104 s.
+
+08/17 23:09:37 Tue	orl,2 random train, 5 times
+0.943750
+use 28.508394 s.
+mean rate: 0.94375
+
+08/17 23:11:22 Tue	orl,2 random train, 5 times
+0.943750
+use 28.388631 s.
+mean rate: 0.94375
+
+08/17 23:13:06 Tue	orl,2 random train, 5 times
+0.915625
+use 30.300851 s.
+mean rate: 0.915625
+
+08/17 23:14:30 Tue	orl,2 random train, 5 times
+0.915625
+use 28.517539 s.
+
+08/17 23:14:58 Tue	orl,2 random train, 5 times
+0.959375
+use 28.502833 s.
+
+08/17 23:15:27 Tue	orl,2 random train, 5 times
+0.928125
+use 28.689666 s.
+
+08/17 23:15:56 Tue	orl,2 random train, 5 times
+0.937500
+use 28.838724 s.
+
+08/17 23:16:25 Tue	orl,2 random train, 5 times
+0.893750
+use 29.179739 s.
+mean rate: 0.926875
+
+08/17 23:18:53 Tue	orl,2 random train, 5 times
+0.915625
+use 28.454567 s.
+
+08/17 23:19:21 Tue	orl,2 random train, 5 times
+0.959375
+use 28.469649 s.
+
+08/17 23:19:50 Tue	orl,2 random train, 5 times
+0.928125
+use 28.496990 s.
+
+08/17 23:20:18 Tue	orl,2 random train, 5 times
+0.937500
+use 28.331671 s.
+
+08/17 23:20:46 Tue	orl,2 random train, 5 times
+0.893750
+use 28.519742 s.
+mean rate: 0.926875
+
+08/17 23:22:31 Tue	orl,2 random train, 5 times
+0.915625
+use 28.512385 s.
+
+08/17 23:23:00 Tue	orl,2 random train, 5 times
+0.890625
+use 28.415049 s.
+
+08/17 23:23:28 Tue	orl,2 random train, 5 times
+0.956250
+use 28.585855 s.
+
+08/17 23:23:57 Tue	orl,2 random train, 5 times
+0.925000
+use 28.441926 s.
+
+08/17 23:24:25 Tue	orl,2 random train, 5 times
+0.915625
+use 28.677442 s.
+mean rate: 0.920625
+
+08/17 23:25:39 Tue	orl,2 random train, 5 times
+0.934375
+use 28.707514 s.
+
+08/17 23:26:08 Tue	orl,2 random train, 5 times
+0.912500
+use 28.811912 s.
+
+08/17 23:26:37 Tue	orl,2 random train, 5 times
+0.928125
+use 28.684583 s.
+
+08/17 23:27:05 Tue	orl,2 random train, 5 times
+0.940625
+use 28.502847 s.
+
+08/17 23:27:34 Tue	orl,2 random train, 5 times
+0.943750
+use 28.719824 s.
+mean rate: 0.931875
+
+08/17 23:29:00 Tue	orl,2 random train, 5 times
+0.909375
+use 28.684251 s.
+
+08/17 23:29:28 Tue	orl,2 random train, 5 times
+0.915625
+use 28.628674 s.
+
+08/17 23:29:57 Tue	orl,2 random train, 5 times
+0.906250
+use 28.652526 s.
+
+08/17 23:30:25 Tue	orl,2 random train, 5 times
+0.940625
+use 28.542600 s.
+
+08/17 23:30:54 Tue	orl,2 random train, 5 times
+0.921875
+use 28.638096 s.
+mean rate: 0.91875
+
+08/17 23:32:32 Tue	orl,2 random train, 5 times
+0.912500
+use 28.666841 s.
+
+08/17 23:33:01 Tue	orl,2 random train, 5 times
+0.950000
+use 29.339440 s.
+
+08/17 23:33:32 Tue	orl,2 random train, 5 times
+0.915625
+use 30.461287 s.
+
+08/17 23:34:01 Tue	orl,2 random train, 5 times
+0.921875
+use 29.684240 s.
+
+08/17 23:34:32 Tue	orl,2 random train, 5 times
+0.950000
+use 30.706607 s.
+mean rate: 0.93
+
+08/17 23:42:56 Tue	orl,2 random train, 5 times
+0.934375
+use 34.795654 s.
+mean rate: 0.934375
+
+08/17 23:45:48 Tue	orl,2 random train, 5 times
+0.943750
+use 28.814262 s.
+mean rate: 0.94375
+
+08/17 23:47:43 Tue	orl,2 random train, 5 times
+0.989286
+use 29.978035 s.
+mean rate: 0.989286
+
+08/17 23:49:48 Tue	orl,2 random train, 5 times
+0.989286
+use 37.170460 s.
+mean rate: 0.989286
+
+08/17 23:51:30 Tue	orl,2 random train, 5 times
+0.915625
+use 35.437119 s.
+mean rate: 0.915625
+
+08/17 23:52:52 Tue	orl,2 random train, 5 times
+0.918750
+use 28.377462 s.
+mean rate: 0.91875
+
+08/17 23:55:45 Tue	orl,2 random train, 5 times
+0.909375
+use 27.800230 s.
+mean rate: 0.909375
+
+08/18 11:36:03 Wed	orl,2 random train, 5 times
+0.965625
+use 29.750240 s.
+
+08/18 11:36:29 Wed	orl,2 random train, 5 times
+0.925000
+use 26.008608 s.
+
+08/18 11:36:55 Wed	orl,2 random train, 5 times
+0.931250
+use 26.077539 s.
+
+08/18 11:37:21 Wed	orl,2 random train, 5 times
+0.931250
+use 26.003450 s.
+
+08/18 11:37:47 Wed	orl,2 random train, 5 times
+0.921875
+use 26.021223 s.
+mean rate: 0.935
+
+08/18 14:42:19 Wed	orl,2 random train, 5 times
+0.965625
+use 29.494710 s.
+
+08/18 14:42:45 Wed	orl,2 random train, 5 times
+0.925000
+use 26.077552 s.
+
+08/18 14:43:12 Wed	orl,2 random train, 5 times
+0.931250
+use 26.079967 s.
+
+08/18 14:43:38 Wed	orl,2 random train, 5 times
+0.931250
+use 26.069288 s.
+
+08/18 14:44:04 Wed	orl,2 random train, 5 times
+0.921875
+use 26.088688 s.
+mean rate: 0.935
+
+08/18 20:51:20 Wed	orl,2 random train, 5 times
+-1.#IND00
+use 3.021395 s.
+mean rate: -1.#IND
+
+08/18 21:03:19 Wed	orl,2 random train, 5 times
+0.840278
+use 24.385928 s.
+mean rate: 0.840278
+
+08/18 21:09:15 Wed	orl,2 random train, 5 times
+0.579861
+use 24.356273 s.
+mean rate: 0.579861
+
+08/18 21:15:18 Wed	orl,2 random train, 5 times
+0.805556
+use 24.878495 s.
+mean rate: 0.805556
+
+08/18 21:16:05 Wed	orl,2 random train, 5 times
+0.805556
+use 26.326833 s.
+mean rate: 0.805556
+
+08/18 21:57:23 Wed	orl,2 random train, 5 times
+0.840278
+use 25.988694 s.
+mean rate: 0.840278
+
+08/18 22:09:12 Wed	orl,2 random train, 5 times
+0.579861
+use 33.829412 s.
+mean rate: 0.579861
+
+08/18 22:43:37 Wed	orl,2 random train, 5 times
+0.836806
+use 30.369844 s.
+mean rate: 0.836806
+
+08/18 22:50:21 Wed	orl,2 random train, 5 times
+0.890625
+use 26.083309 s.
+mean rate: 0.890625
+
+08/18 22:51:49 Wed	orl,2 random train, 5 times
+0.895833
+use 27.783434 s.
+mean rate: 0.895833
+
+08/19 19:18:35 Thu	orl,2 random train, 3 times
+rate = 0.953125, time = 27.089599s
+rate = 0.918750, time = 27.115540s
+rate = 0.946875, time = 27.792724s
+mean rate: 0.939583
+
+08/19 19:25:01 Thu	orl,2 random train, 3 times
+rate = 0.912500, time = 28.685738s
+rate = 0.943750, time = 29.074292s
+rate = 0.912500, time = 29.200510s
+mean rate: 0.922917
+
+08/19 19:27:02 Thu	orl,2 random train, 3 times
+rate = 0.937500, time = 27.562647s
+rate = 0.940625, time = 28.224949s
+rate = 0.925000, time = 27.007222s
+mean rate: 0.934375
+
+08/19 19:28:45 Thu	orl,2 random train, 3 times
+rate = 0.909375, time = 26.886924s
+rate = 0.925000, time = 28.792055s
+rate = 0.928125, time = 28.216506s
+mean rate: 0.920833
+
+08/19 19:31:21 Thu	orl,2 random train, 3 times
+
+08/19 19:33:28 Thu	orl,2 random train, 3 times
+rate = 0.912500, time = 27.053912s
+rate = 0.912500, time = 27.041097s
+rate = 0.946875, time = 27.017072s
+mean rate: 0.923958
