@@ -1,0 +1,108 @@
+cvCreateImage: size, depth, channel.
+depth:
+#define IPL_DEPTH_1U     1
+IPL_DEPTH_8U - 无符号8位整型 
+IPL_DEPTH_8S - 有符号8位整型 
+IPL_DEPTH_16U - 无符号16位整型 
+IPL_DEPTH_16S - 有符号16位整型 
+IPL_DEPTH_32S - 有符号32位整型 
+IPL_DEPTH_32F - 单精度浮点数 
+IPL_DEPTH_64F - 双精度浮点数 
+
+HaarDetect 光照条件好时似乎快一些
+
+要release,destroy的:image,mat,window,cascade,memstorage,capture
+
+本程序中：调用前不需要预分配image、mat空间的(因此需要调用后手工释放)，头文件有注明；否则需要预分配 (obsolete)
+			遵守谁分配，谁释放的准则
+
+			elem_type		channel		dim
+mGet		float,double	1			2
+GetReal*D	all				1			all
+Get*D		all				all			all
+CV_MAT_ELEM	all				all			2
+例子：
+CvMat* vector = cvCreateMat( 1, 3, CV_32SC2 );
+CV_MAT_ELEM( *vector, CvPoint, 0, 0 ) = cvPoint(100,100);
+
+有关数据类型、格式转换的相关操作：
+cvGetElemType：cvCreateMat(h, w, cvGetElemType(src_arr))
+((IplImage *)src)->depth/nChannels
+((cvMat *)src)->type
+32位->8位要用cvConvertScale(a, b, 255)
+8位->32位要用cvConvertScale(b, a, 1.0/255);
+cvGetMat、cvGetImage
+CV_MAT_CN(type),CV_MAT_DEPTH,CV_MAKETYPE
+
+出错后跳转到一个<xstring>文件的，通常由于空间分配、数据格式问题。
+
+存储图像范围：0~255
+
+传给ReleaseImage函数一个空指针、错指针似乎不会报错
+
+摄像头初始化时报错：删掉加载dll是出现的与项目无关的dll，如Nero, 暴风, application verifier
+
+CvMat *sub = cvGetSubRect(m,&tmpHeader,rc) 返回的指针似乎就是传入的tmpHeader的地址；
+但CvMat *m = cvGetMat(arr, &tmpHeader)如果传入的就是矩阵，则传入的tmpHeader不被初始化，返回的仍是arr.传入img似乎会被初始化。
+
+cv再编译需要更改的：CV_Assert,boost库的泄露(opencv论坛)
+
+cxtypes.h:
+#define CV_ARE_TYPES_EQ(mat1, mat2) \
+    ((((mat1)->type ^ (mat2)->type) & CV_MAT_TYPE_MASK) == 0)
+
+#define CV_ARE_CNS_EQ(mat1, mat2) \
+    ((((mat1)->type ^ (mat2)->type) & CV_MAT_CN_MASK) == 0)
+
+#define CV_ARE_DEPTHS_EQ(mat1, mat2) \
+    ((((mat1)->type ^ (mat2)->type) & CV_MAT_DEPTH_MASK) == 0)
+
+#define CV_ARE_SIZES_EQ(mat1, mat2) \
+    ((mat1)->height == (mat2)->height && (mat1)->width == (mat2)->width)
+
+#define CV_IS_MAT_CONST(mat)  \
+    (((mat)->height|(mat)->width) == 1)
+
+/* size of each channel item,
+   0x124489 = 1000 0100 0100 0010 0010 0001 0001 ~ array of sizeof(arr_type_elem) */
+#define CV_ELEM_SIZE1(type) \
+    ((((sizeof(size_t)<<28)|0x8442211) >> CV_MAT_DEPTH(type)*4) & 15)
+
+/* 0x3a50 = 11 10 10 01 01 00 00 ~ array of log2(sizeof(arr_type_elem)) */
+#define CV_ELEM_SIZE(type) \
+    (CV_MAT_CN(type) << ((((sizeof(size_t)/4+1)*16384|0x3a50) >> CV_MAT_DEPTH(type)*2) & 3))
+    #define CV_PI   3.1415926535897932384626433832795
+#define CV_LOG2 0.69314718055994530941723212145818
+
+#define CV_SWAP(a,b,t) ((t) = (a), (a) = (b), (b) = (t))
+
+#ifndef MIN
+#define MIN(a,b)  ((a) > (b) ? (b) : (a))
+#endif
+
+#ifndef MAX
+#define MAX(a,b)  ((a) < (b) ? (b) : (a))
+#endif
+
+/* min & max without jumps */
+#define  CV_IMIN(a, b)  ((a) ^ (((a)^(b)) & (((a) < (b)) - 1)))
+
+#define  CV_IMAX(a, b)  ((a) ^ (((a)^(b)) & (((a) > (b)) - 1)))
+
+/* absolute value without jumps */
+#ifndef __cplusplus
+#define  CV_IABS(a)     (((a) ^ ((a) < 0 ? -1 : 0)) - ((a) < 0 ? -1 : 0))
+#else
+#define  CV_IABS(a)     abs(a)
+#endif
+#define  CV_CMP(a,b)    (((a) > (b)) - ((a) < (b)))
+#define  CV_SIGN(a)     CV_CMP((a),0)
+
+随机数：
+	CvRNG	rng_state = cvRNG(cvGetTickCount());
+	cvRandArr(&rng_state, m, CV_RAND_UNI, cvScalar(0), cvScalar(1));
+	cvRandInt
+	
+最好不要在子线程中操作cvShowImage窗口
+
+将OpenCV2.0中的CV_Assert和CV_Error，改成assert和assert(0)，是一个避免每次都跳到xstring文件的方法。跳到xstring似乎是bug?
