@@ -1,0 +1,6 @@
+// 指定哪个算法将被编译（不是调用）
+#define COMPILE_ALIGN_ASM
+#define COMPILE_LIGHT_HOMONORM
+#define COMPILE_FEATURE_GABOR
+#define COMPILE_SUBSPACE_PCAFLD
+

@@ -1,0 +1,19 @@
+PublicHeaders.h	{OpenCV.h,	vector	fstream}
+
+tools.h		{PublicHeaders.h,	atlstr.h}
+tools.cpp	{tools.h}
+
+算法.h		{../tools/tools.h,	各自需要.h}
+算法.cpp	{算法.h}
+
+FaceMngr.h	{PublicHeaders.h,	atlstr.h}
+FaceMngr.cpp{FaceMngr.h		算法.h}
+
+界面.h		{Resource.h		包含的界面.h	../FaceMngr/FaceMngr.h}
+ProjDefs.h	{stdafx.h	WebCam.h	../FaceMngr/FaceMngr.h}
+WndUtils.h	{stdafx.h	../FaceMngr/FaceMngr.h}
+
+界面.cpp	{stdafx.h	frtest.h	界面.h		ProjDefs.h		WndUtils.h}
+
+
+对同一个模块不同的算法，一般来说编写成同一个类中不同的函数，以便利用相同的变量和函数。如果需要输出一个包含成熟算法的dll、或基于清晰的考虑，单写成同名的另一个类，用头文件中定义的的条件编译语句区分。虽然想把dll编写成接口统一、可以动态更换的，但不同算法的的参数可能不同，并且将类编写成dll后，似乎只要类结构改变，显示调用就会出错，因此还是采用隐式调用，更换算法时需要改写代码重新编译。
