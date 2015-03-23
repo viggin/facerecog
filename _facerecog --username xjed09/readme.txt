@@ -1,0 +1,2 @@
+The sample frmat file was trained using only a few faces images from a certain environment.
+The users should train their own dimension reduction matrix using a lot of faces captured in their environment.
