@@ -1,2 +1,3 @@
+This program is written in VC++, built with MS Visual Studio 2008 SP. Only OpenCV 2.2 is used in this version of the demo. The demo can detect faces from webcam or pictures, then identify it according to the enrolled database. It allows you to train your own classfier using your own pictures, as well as save or load your classifiers or face databases.
 The sample frmat file was trained using only a few faces images from a certain environment.
 The users should train their own dimension reduction matrix using a lot of faces captured in their environment.
