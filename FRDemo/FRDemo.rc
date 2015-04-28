@@ -1,0 +1,307 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\FRDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FRDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 171, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About FRDemo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "A simple face recognition demo, v2.0",IDC_STATIC,42,14,122,8,SS_NOPREFIX
+    LTEXT           "Copyleft (C) 2012, Yan Ke, THUEE",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,114,53,50,14,WS_GROUP
+    LTEXT           "xjed09@gmail.com",IDC_STATIC,42,38,114,8
+END
+
+IDD_FRDemo_DIALOG DIALOGEX 0, 0, 255, 159
+STYLE DS_ABSALIGN | DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Face Recognition Demo"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,198,101,50,14
+    CTEXT           "No Video",IDC_VIDEO,7,7,182,145,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    LTEXT           "",IDC_STATE,216,119,32,8
+    PUSHBUTTON      "Train",IDC_TRAIN,198,34,50,14
+    PUSHBUTTON      "Recognize",IDC_RECOG,198,54,50,14
+    PUSHBUTTON      "Export",IDC_EXPORT,198,74,50,14
+    PUSHBUTTON      "Enroll",IDC_ENROLL,198,14,50,14
+END
+
+IDD_ENROLL DIALOGEX 0, 0, 272, 132
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enroll"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,154,111,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,210,111,50,14
+    CTEXT           "Face",IDC_FACE,7,7,86,99,SS_CENTERIMAGE
+    PUSHBUTTON      "shoot",IDC_SHOOT,101,17,23,14
+    LTEXT           "",IDC_SHOOT_GUIDE,98,34,167,37
+    LTEXT           "Name:",IDC_STATIC,7,114,22,8
+    EDITTEXT        IDC_NAME,36,111,79,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "from picture",IDC_ENROLL_PIC,127,17,46,14
+    PUSHBUTTON      "load model file",IDC_IMPORT_MODELS,175,17,53,14
+    CONTROL         "Save normalized face images when enrolling",IDC_SAVE_SMALL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,99,79,164,13
+    LTEXT           "3 ways to enroll:",IDC_STATIC,102,7,54,8
+    CONTROL         "Input name for every face in picture",IDC_INPUT_NAME,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,99,93,132,10
+    PUSHBUTTON      "Enter",IDC_ENTER_NAME,117,111,23,14
+    PUSHBUTTON      "more",IDC_ADV,244,17,21,14
+    PUSHBUTTON      "delete last",IDC_DEL_SHOOT,155,17,50,14
+END
+
+IDD_TRAIN DIALOGEX 0, 0, 228, 144
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Train"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,59,123,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,113,123,50,14
+    LTEXT           "The biggest face on each picture will be used for training. Picture names should start with ""person name_""",IDC_STATIC,13,45,202,21
+    EDITTEXT        IDC_TRAINFD,23,65,146,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE_TRAINFD,178,65,27,14
+    PUSHBUTTON      "Load classifier file",IDC_IMPORT_MAT,106,103,67,14
+    LTEXT           "You can also:",IDC_STATIC,52,87,44,8
+    GROUPBOX        "Choose picture folder to train",IDC_STATIC,7,35,214,49
+    PUSHBUTTON      "Train from file list",IDC_FROMLIST,104,85,71,14
+    LTEXT           "Or more simply:",IDC_STATIC,52,105,51,8
+    CONTROL         "Training faces have been normalized",IDC_NORMED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,43,10,133,10
+    CONTROL         "Save training faces to gallery",IDC_SAVE2MODEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,43,23,109,10
+END
+
+IDD_RECOG DIALOGEX 0, 0, 238, 153
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Recognize"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,193,7,30,14
+    CTEXT           "picture",IDC_QUERYIMG,9,48,86,88,SS_CENTERIMAGE
+    CTEXT           "matching result",IDC_MATCHIMG,109,48,86,88,SS_CENTERIMAGE
+    PUSHBUTTON      "load picture",IDC_PIC_RECOG,54,7,43,14
+    LTEXT           "You can also:",IDC_STATIC,7,10,44,8
+    CONTROL         "smooth face position",IDC_USEBUF,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,100,5,80,17
+    LTEXT           "",IDC_INFO,7,22,224,24
+END
+
+IDD_ADV DIALOGEX 0, 0, 192, 65
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Advance"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,44,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,44,50,14
+    PUSHBUTTON      "Clear gallery",IDC_CLEAR_LIB,7,7,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Edward"
+            VALUE "FileDescription", "Face Recognition"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "FRDemo.exe"
+            VALUE "LegalCopyright", "THEE"
+            VALUE "OriginalFilename", "FRDemo.exe"
+            VALUE "ProductName", "Face Recognition"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_FRDemo_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_ENROLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_TRAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_RECOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_ADV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 FRDemo(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\FRDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
